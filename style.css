@@ -9,7 +9,7 @@
 }
 body{
     font-family: "Poppins", serif;
-    background: #ffffffd8;
+     background-color: rgba(0, 0, 0, 0.062);
 }
 
 header{
@@ -83,8 +83,10 @@ header{
 /************** Main content **********************/
 
 .section-1{
-    background-color: #fff;
+    background-color: #ffffff;
     border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 30px 0;
 }
  .name p{
     color: #F7A52E;
@@ -98,15 +100,92 @@ header{
     align-items: center;
     justify-content: space-between;
 }
-
+.text_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .text_bottom p{
     background-color: #F7A52E;
     color: #fff;
+    padding: 10px;
+    border-radius: 20px;
    display: inline-block;  
 }
 
 /***************** section 2 ***************/
-
 .section-2{
-    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.062);
+    margin-bottom: 50px;
+    width: 100%;
+    height: auto;
+}
+.sec2-container{
+    margin: 7% 10% 0;
+    background-color: #fff ;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    
+}
+    
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content-image{
+    position: relative;
+    top: -55px;
+    left: -51px;
+}
+
+
+.content-text{
+    /* display: inline-block; */
+    /* width: 500px; */
+    text-align: center;
+    padding: 10%;
+    font-style: italic;
+    
+}
+.content-text h2{
+    margin-bottom: 25px;
+    color: #612B1A;
+    font-weight: 800;
+
+}
+.content-text p{
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+.content-p{
+    margin-top: 25px;
+    border: 1px solid #612B1A;
+    padding: 5px;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.content2{
+    display: flex;
+}
+.content-text2{
+ padding: 0 10%;
+}
+.content-text2 img{
+    position: relative;
+    bottom: -96px;
+    left: -204px;
+}
+
+
+.content-image2{
+    position: relative;
+    top: -55px;
+    right: -51px;
 }
