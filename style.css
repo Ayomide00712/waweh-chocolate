@@ -1,5 +1,7 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
 *{
@@ -8,7 +10,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: "Poppins", serif;
+    font-family: "Abel", serif;
      background-color: rgba(0, 0, 0, 0.062);
 }
 
@@ -188,4 +190,94 @@ header{
     position: relative;
     top: -55px;
     right: -51px;
+}
+/***************** section3 *****************/
+
+.sec3_container{
+    margin-top: 100px;
+    background: #ffffff;
+    padding: 20px 0;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.sec3_container p{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    line-height: 33px;
+    font-weight: 400;
+    color: #612B1A;
+}
+.sec3_container p i{
+    color:#F7A52E;
+    margin-right: 5px;
+}
+.sec3_container p span{
+    color:#F7A52E;
+    margin-right: 5px;
+}
+
+.sec3_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 7%;
+    gap: 20px;
+}
+
+/****************** footer *************/
+
+footer{
+    background-image: url(images/1\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3% 7% ;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 4% 7%; */
+    margin-bottom: 30px;
+}
+.footer-content{
+    /* padding: 4%; */
+    font-style: italic;
+    line-height: 22px;
+}
+.footer-content h2{
+    color:#F7A52E;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+
+}
+.footer-content p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15.6px;
+}
+
+
+.footer-below{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.footer-below .below h2{
+    color: #F7A52E;
+    margin-bottom: 10px;
+}
+.footer-below .icons{
+    font-size: 30px;
+}
+.footer-last{
+    margin-top: 20px;
+}
+.footer-last p{
+    color: #F7A52E;
+    font-size: 20px;
 }
