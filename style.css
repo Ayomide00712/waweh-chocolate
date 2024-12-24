@@ -457,7 +457,7 @@ footer{
         width: 100%;
     }
     .sec_content_main{
-        padding: 0 20px;
+        padding: 0;
     }
     .sec3-desktop{
         display: none;
