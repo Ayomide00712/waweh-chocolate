@@ -444,8 +444,7 @@ footer{
     }
     .sec_content_left{
         display: flex;
-        gap: 10px;
-
+        gap: 5px;
     }
     .sec3_container p{
         font-size: 20px;
